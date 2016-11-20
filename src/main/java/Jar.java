@@ -14,7 +14,7 @@ public class Jar{
   }
   
   public int validateGuess(int num){
-    if(num > mmaxNoOfItems || num < 1 )
+    if(num > mmaxNoOfItems || num <= 0 )
     {
       throw new IllegalArgumentException("The entered number or character is not with in the guess numbers range/invalid.");
     }
