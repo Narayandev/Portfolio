@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+/* flex-conatiner */
+.flex-container{
+    background: url('http://i.imgur.com/b9r5sEL.jpg') bottom center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:760px;
+}
+.flex-container > div{
+    border: 3px solid black;
+    border-radius: 5px;
+    width:105px;
+    height:65px;
+    padding-top:16px;
+    margin: 12.5px;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 0.5px black;
+    transition: all 1.5s ease;
+}
+.flex-container > div:hover{
+    background: rgba(50,50,50,0);
+}
+.playing{
+    transform: scale(2);
+    border-color: #ffc63f;
+    box-shadow: 0 0 20px #ffc63f;
+}
+span{
+    margin-top:0;
+}
+kbd{
+    display: block;
+    font-size: 35px;
+    color:white;
+}
+.sound{
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    color: #ffc600;
+    text-transform: uppercase;
+}
